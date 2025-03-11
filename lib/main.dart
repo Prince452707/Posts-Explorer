@@ -1,4 +1,4 @@
-// main.dart
+
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Posts Explorer',
-      debugShowCheckedModeBanner: false, // Removed debug banner
+      debugShowCheckedModeBanner: false, 
       theme: ThemeData(
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(
